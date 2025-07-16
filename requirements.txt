@@ -1,0 +1,17 @@
+# Core LLM + LangChain
+openai>=1.0.0
+langchain>=0.1.16
+langchain-community
+
+# File parsing
+pymupdf          # For reading PDFs (used by PyMuPDFLoader)
+python-docx      # For reading DOCX files
+docx2txt         # Also helps extract text from DOCX
+python-dotenv    # To load .env variables
+unstructured     # Optional: handles PDFs, DOCX, HTML with layout
+
+# Streamlit frontend
+streamlit>=1.30.0
+
+# Optional dev/test
+pytest

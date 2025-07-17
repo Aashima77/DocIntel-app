@@ -4,14 +4,13 @@ langchain>=0.1.16
 langchain-community
 
 # File parsing
-pymupdf          # For reading PDFs (used by PyMuPDFLoader)
-python-docx      # For reading DOCX files
-docx2txt         # Also helps extract text from DOCX
-python-dotenv    # To load .env variables
-unstructured     # Optional: handles PDFs, DOCX, HTML with layout
+pymupdf          
+python-docx      
+docx2txt         
+python-dotenv    
+unstructured     
 
 # Streamlit frontend
 streamlit>=1.30.0
 
-# Optional dev/test
 pytest
